@@ -11,6 +11,10 @@ body {
     padding: 20px 150px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 section .title {
     display: flex;
@@ -83,11 +87,13 @@ div h2 {
 div h4 {
     font-size: 1.3rem;
     font-weight: 900;
+    margin-bottom: 5px;
 }
 
 div h5 {
     font-size: 1.2rem;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 
 div .date {
@@ -98,9 +104,10 @@ div .date {
 .date span,
 div h6  {
     color: rgba(160, 154, 154, 0.938);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: italic;
     padding-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 div p {
@@ -122,7 +129,7 @@ div p {
 }
 
 .project div {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .project h5 {
@@ -135,8 +142,6 @@ div p {
 
 .project p a {
     text-decoration: none;
-    color: #000;
-    padding-left: 5px;
     cursor: pointer;
 }
 
